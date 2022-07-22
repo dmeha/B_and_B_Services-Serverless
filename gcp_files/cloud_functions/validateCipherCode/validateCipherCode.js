@@ -173,7 +173,7 @@ var manageUserLogs = function (email) {
 
     request(
         {
-            url: "",
+            url: "https://us-central1-csci-5410-assignment-4-part-b.cloudfunctions.net/ReportGenerationModule",
             method: "POST",
             json: true,
             body: data
