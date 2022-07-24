@@ -51,7 +51,6 @@ export const ConfirmOrder = () => {
 
                 <Container component="main" maxWidth="xs">
                     <CssBaseline/>
-                    <Home/>
                     <Box
                         sx={{
                             marginTop: 10,
